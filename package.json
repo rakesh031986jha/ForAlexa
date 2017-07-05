@@ -1,22 +1,25 @@
 {
-  "name": "alexahello",
+  "name": "foralexa",
   "version": "1.0.0",
-  "description": "alexa demo",
+  "description": "Test POC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "alexa-sdk": "^1.0.11"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rakesh031986jha/ForAlexa.git"
   },
-  "author": "rakesh jha",
+  "keywords": [
+    "alexa"
+  ],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rakesh031986jha/ForAlexa/issues"
   },
-  "homepage": "https://github.com/rakesh031986jha/ForAlexa#readme"
+  "homepage": "https://github.com/rakesh031986jha/ForAlexa#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11"
+  }
 }
